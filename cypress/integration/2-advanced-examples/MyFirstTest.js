@@ -17,7 +17,7 @@ it('sign up', () =>
         
         cy.get(':nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("Jalali")
         cy.get('.selected-flag').click()
-        cy.get("li[data-flag-key=\"flag_no_63\"]").click()
+        cy.get('li[data-flag-key="flag_no_63"]').click()
         
         cy.get('.jss27').type("769939394")
         cy.get(':nth-child(4) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type('banafsheh.jalalli')
